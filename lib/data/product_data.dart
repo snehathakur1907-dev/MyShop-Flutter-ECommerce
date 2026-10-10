@@ -1,0 +1,97 @@
+
+import '../models/product.dart';
+
+const List<String> categories = [
+  'Electronics',
+  'Fashion',
+  'Shoes',
+  'Beauty',
+  'Accessories',
+];
+
+const List<Product> products = [
+  Product(
+    name: 'Wireless Headphones',
+    category: 'Electronics',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600',
+    price: 2499,
+    rating: 4.8,
+    description: 'Enjoy clear sound and comfortable listening with these stylish wireless headphones.',
+    isNew: true,
+  ),
+  Product(
+    name: 'Smart Watch',
+    category: 'Electronics',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600',
+    price: 3299,
+    rating: 4.6,
+    description: 'A modern smartwatch for everyday style, activity tracking and convenience.',
+  ),
+  Product(
+    name: 'Casual T-Shirt',
+    category: 'Fashion',
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600',
+    price: 899,
+    rating: 4.5,
+    description: 'A comfortable casual T-shirt suitable for daily wear.',
+    isNew: true,
+  ),
+  Product(
+    name: 'Classic Jacket',
+    category: 'Fashion',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600',
+    price: 2499,
+    rating: 4.7,
+    description: 'A versatile jacket with a classic look for your wardrobe.',
+  ),
+  Product(
+    name: 'Running Sneakers',
+    category: 'Shoes',
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600',
+    price: 2199,
+    rating: 4.8,
+    description: 'Lightweight sneakers designed for comfort during walking and running.',
+    isNew: true,
+  ),
+  Product(
+    name: 'White Sneakers',
+    category: 'Shoes',
+    image: 'https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?w=600',
+    price: 1899,
+    rating: 4.4,
+    description: 'Classic everyday sneakers that pair easily with casual outfits.',
+  ),
+  Product(
+    name: 'Skin Care Serum',
+    category: 'Beauty',
+    image: 'https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600',
+    price: 1299,
+    rating: 4.6,
+    description: 'A simple skincare essential for your daily beauty routine.',
+  ),
+  Product(
+    name: 'Beauty Essentials',
+    category: 'Beauty',
+    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600',
+    price: 1599,
+    rating: 4.5,
+    description: 'Beauty essentials for an easy everyday makeup routine.',
+  ),
+  Product(
+    name: 'Classic Sunglasses',
+    category: 'Accessories',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600',
+    price: 799,
+    rating: 4.3,
+    description: 'Stylish sunglasses that complete your everyday look.',
+  ),
+  Product(
+    name: 'Everyday Backpack',
+    category: 'Accessories',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600',
+    price: 1499,
+    rating: 4.7,
+    description: 'A practical backpack for carrying your daily essentials.',
+    isNew: true,
+  ),
+];
